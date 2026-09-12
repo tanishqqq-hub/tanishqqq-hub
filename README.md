@@ -2,7 +2,7 @@
 
 # Tanishq Deshpande
 
-### AI/ML Developer — turning data into deployed systems
+### AI/ML Developer — building systems from data to working application
 
 `Machine Learning`&nbsp;·&nbsp;`Deep Learning`&nbsp;·&nbsp;`NLP`&nbsp;·&nbsp;`Python`&nbsp;·&nbsp;`FastAPI`&nbsp;·&nbsp;`React`
 
@@ -14,8 +14,8 @@
 
 ```
 $ whoami
-AI/ML developer who ships the full pipeline — data → model → API → UI.
-Not a notebook portfolio. Deployed systems, measured results.
+AI/ML developer who builds the full pipeline — data → model → API → UI.
+Not a notebook portfolio. Working systems, measured results.
 
 $ cat highlights.log
 [latency]   60.000s → 0.110s/query   (600x)        — Musify
@@ -29,7 +29,7 @@ $ cat highlights.log
 ## Build Log
 
 Four systems, four different ML problems — ranking, tabular classification/regression,
-recommendation, and rule-based scoring — each taken from raw data to a running API.
+recommendation, and rule-based scoring — each taken from raw data to a working API.
 
 <br>
 
@@ -73,7 +73,7 @@ Upload a dataset → get a trained, tuned, tracked model. Handles validation, pr
 Predicts 30-day readmission risk and hospital length of stay to support real-time clinical decisions.
 
 - Classification + regression pipelines
-- Deployed via FastAPI + React
+- FastAPI backend + React frontend
 - Flags stay-length anomalies for staff
 
 `FastAPI` `React` `Healthcare ML`
@@ -106,7 +106,7 @@ Generates Conservative / Balanced / Aggressive portfolios from an investor's ris
 |:--|:--|
 | **Modeling** | Scikit-learn · Regression · Classification · Ensembles · Recommendation Systems |
 | **Deep Learning / GenAI** | Neural Networks · NLP · RAG · LLM Agents · Prompt Engineering |
-| **MLOps** | MLflow · Optuna · Model Versioning & Deployment |
+| **MLOps** | MLflow · Optuna · Model Versioning & Experiment Tracking |
 | **Backend / Frontend** | FastAPI · REST APIs · React · TypeScript |
 | **Data / Cloud** | MySQL · AWS · Oracle Cloud Infrastructure |
 | **Languages** | Python · SQL · C |
@@ -122,8 +122,6 @@ Deep Learning Specialization — *Andrew Ng*  ·  Generative AI Professional (LL
 <br>
 
 <div align="center">
-
-
 
 <sub>Open to AI/ML developer roles and collaborations</sub>
 
