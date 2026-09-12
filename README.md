@@ -1,53 +1,59 @@
-<h1 align="center">Hi, I'm Tanishq Deshpande 👋</h1>
-<h3 align="center">AI/ML Developer building end-to-end ML systems — from data to deployment</h3>
+# Tanishq Deshpande
 
-<p align="center">
-I design and ship full ML pipelines — preprocessing, model training, experiment tracking, and FastAPI/React deployment — across healthcare, fintech, and recommendation systems.
-</p>
+**AI/ML Developer** — Machine Learning, Deep Learning & NLP | Python, FastAPI, React
 
-<p align="center">
-  <a href="https://linkedin.com/in/tanishq-deshpande23"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=flat&logo=linkedin&logoColor=white" /></a>
-  <a href="mailto:tanishqdeshpande123@gmail.com"><img src="https://img.shields.io/badge/Email-D14836?style=flat&logo=gmail&logoColor=white" /></a>
-  <a href="https://github.com/tanishqqq-hub"><img src="https://img.shields.io/badge/GitHub-181717?style=flat&logo=github&logoColor=white" /></a>
-</p>
+Mumbai, India · [tanishqdeshpande123@gmail.com](mailto:tanishqdeshpande123@gmail.com) · [LinkedIn](https://linkedin.com/in/tanishq-deshpande23) · [GitHub](https://github.com/tanishqqq-hub)
+
+I build production-oriented ML systems end to end — data preprocessing, model development, hyperparameter optimization, experiment tracking, and deployment via FastAPI and React. Recent work spans clinical risk prediction, automated ML pipelines, and large-scale recommendation systems, with results including a ~600x reduction in recommendation inference latency and 0.86 ROC-AUC on an automated pipeline.
 
 ---
 
-### 🔭 Currently building
-- **Musify** — a hybrid music recommender (collaborative + content-based filtering) serving 75K users across 145K artists, with recommendation latency down from 60s to 0.11s/query
-- Exploring RAG pipelines and LLM agent workflows for practical GenAI applications
+## Projects
 
-### 🧠 What I work with
-`Python` · `SQL` · `Scikit-learn` · `FastAPI` · `MLflow` · `Optuna` · `React` · `TypeScript` · `MySQL` · `AWS` · `OCI`
+### Musify — Hybrid Music Recommendation System
+A recommendation engine serving 75K users across 145K artists and 3.66M user–artist interactions. Combines SVD-based collaborative filtering, content-based filtering, and popularity ranking with weighted score fusion, cold-start fallback, and MMR-based re-ranking.
+- Reduced inference latency from 60s to 0.11s/query (~600x) using 100 latent factors
+- Achieved 10% Hit@10 on a large-scale interaction dataset
+`Python` `Scikit-learn` `SVD` `Recommender Systems`
 
-**Focus areas:** Machine Learning & Deep Learning · NLP · Recommendation Systems · RAG & LLM Applications · MLOps & Model Deployment
+### AutoML — Automated Machine Learning Platform
+An end-to-end platform that takes a raw dataset through validation, preprocessing, training, model selection, and inference across five algorithms, without manual intervention.
+- Leakage-safe Scikit-learn pipelines with `ColumnTransformer`
+- Optuna-driven hyperparameter search (20 trials/model), tracked and versioned via MLflow
+- 0.8608 ROC-AUC, 0.8101 accuracy, 0.8059 F1 — best pipeline trains in ~14s
+`Python` `Optuna` `MLflow` `Scikit-learn`
+
+### ClinSight — Clinical Decision-Support System
+A patient risk-scoring system predicting 30-day readmission risk and hospital length of stay, built to support real-time clinical decision-making.
+- Reproducible classification/regression pipelines deployed via FastAPI + React
+- Surfaces high-risk patients and stay-length anomalies for clinical staff
+`Python` `FastAPI` `React` `Healthcare ML`
+
+### InvestmentPortfolio — Risk-Aware Portfolio Recommendation Engine
+A recommendation platform generating portfolio allocations (Conservative / Balanced / Aggressive) from an investor's risk profile, horizon, liquidity, and existing holdings.
+- Modular rule-based scoring and allocation logic
+- Full-stack implementation with FastAPI, Pydantic, MySQL, React + TypeScript
+`FastAPI` `MySQL` `React` `TypeScript`
 
 ---
 
-### 📌 Selected work
+## Technical Skills
 
-**[ClinSight](https://github.com/tanishqqq-hub) — Clinical Decision-Support ML System**
-Predicts 30-day patient readmission risk and hospital length of stay; deployed with FastAPI + React for real-time risk scoring that helps clinical staff flag high-risk patients.
+| | |
+|---|---|
+| **Languages** | Python, SQL, C |
+| **Machine Learning** | Regression, Classification, Ensemble Methods, Feature Engineering, Hyperparameter Optimization, Recommendation Systems |
+| **Deep Learning / GenAI** | Neural Networks, NLP, RAG, LLM Applications, AI Agents, Prompt Engineering |
+| **Backend & MLOps** | FastAPI, REST APIs, MLflow, Optuna, Model Deployment & Versioning |
+| **Data & Cloud** | MySQL, AWS, Oracle Cloud Infrastructure |
+| **Tooling** | Git, React, TypeScript, Streamlit, Linux/Bash |
 
-**[AutoML](https://github.com/tanishqqq-hub) — End-to-End Automated ML Platform**
-Upload-to-prediction pipeline covering validation, preprocessing, training, and model selection across 5 algorithms. Optuna-tuned, MLflow-tracked — **0.86 ROC-AUC** with the best pipeline completing in ~14s.
-
-**[InvestmentPortfolio](https://github.com/tanishqqq-hub) — Risk-Aware Portfolio Recommender**
-Generates personalized investment allocations (Conservative / Balanced / Aggressive) from an investor's risk profile, horizon, and holdings, with a FastAPI + MySQL + React/TypeScript stack.
-
-**[Musify](https://github.com/tanishqqq-hub) — Hybrid Music Recommendation System**
-SVD collaborative filtering + content-based filtering + popularity ranking, with MMR re-ranking and cold-start handling. **~600x faster inference**, 10% Hit@10.
-
----
-
-### 🎓 Certifications
+## Certifications
 Deep Learning Specialization (Andrew Ng) · Generative AI Professional — Building LLM Applications with Prompt Engineering (NVIDIA) · Oracle Cloud Infrastructure 2025 Certified
 
 ---
 
 <p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=tanishqqq-hub&show_icons=true&theme=default&hide_border=true&count_private=true" height="165" />
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=tanishqqq-hub&layout=compact&hide_border=true" height="165" />
+  <img src="https://github-readme-stats.vercel.app/api?username=tanishqqq-hub&show_icons=true&theme=default&hide_border=true&count_private=true" height="160" />
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=tanishqqq-hub&layout=compact&hide_border=true" height="160" />
 </p>
-
-<p align="center"><i>📍 Mumbai, India — open to AI/ML developer roles and collaborations</i></p>
