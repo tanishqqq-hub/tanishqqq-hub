@@ -123,8 +123,7 @@ Deep Learning Specialization — *Andrew Ng*  ·  Generative AI Professional (LL
 
 <div align="center">
 
-<img src="https://github-readme-stats.vercel.app/api?username=tanishqqq-hub&show_icons=true&theme=default&hide_border=true&count_private=true" height="160" />
-<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=tanishqqq-hub&layout=compact&hide_border=true" height="160" />
+
 
 <sub>Open to AI/ML developer roles and collaborations</sub>
 
