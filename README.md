@@ -1,59 +1,131 @@
+<div align="center">
+
 # Tanishq Deshpande
 
-**AI/ML Developer** — Machine Learning, Deep Learning & NLP | Python, FastAPI, React
+### AI/ML Developer — turning data into deployed systems
 
-Mumbai, India · [tanishqdeshpande123@gmail.com](mailto:tanishqdeshpande123@gmail.com) · [LinkedIn](https://linkedin.com/in/tanishq-deshpande23) · [GitHub](https://github.com/tanishqqq-hub)
+`Machine Learning`&nbsp;·&nbsp;`Deep Learning`&nbsp;·&nbsp;`NLP`&nbsp;·&nbsp;`Python`&nbsp;·&nbsp;`FastAPI`&nbsp;·&nbsp;`React`
 
-I build production-oriented ML systems end to end — data preprocessing, model development, hyperparameter optimization, experiment tracking, and deployment via FastAPI and React. Recent work spans clinical risk prediction, automated ML pipelines, and large-scale recommendation systems, with results including a ~600x reduction in recommendation inference latency and 0.86 ROC-AUC on an automated pipeline.
+[LinkedIn](https://linkedin.com/in/tanishq-deshpande23) &nbsp;•&nbsp; [Email](mailto:tanishqdeshpande123@gmail.com) &nbsp;•&nbsp; Mumbai, India
 
----
+</div>
 
-## Projects
+<br>
 
-### Musify — Hybrid Music Recommendation System
-A recommendation engine serving 75K users across 145K artists and 3.66M user–artist interactions. Combines SVD-based collaborative filtering, content-based filtering, and popularity ranking with weighted score fusion, cold-start fallback, and MMR-based re-ranking.
-- Reduced inference latency from 60s to 0.11s/query (~600x) using 100 latent factors
-- Achieved 10% Hit@10 on a large-scale interaction dataset
-`Python` `Scikit-learn` `SVD` `Recommender Systems`
+```
+$ whoami
+AI/ML developer who ships the full pipeline — data → model → API → UI.
+Not a notebook portfolio. Deployed systems, measured results.
 
-### AutoML — Automated Machine Learning Platform
-An end-to-end platform that takes a raw dataset through validation, preprocessing, training, model selection, and inference across five algorithms, without manual intervention.
-- Leakage-safe Scikit-learn pipelines with `ColumnTransformer`
-- Optuna-driven hyperparameter search (20 trials/model), tracked and versioned via MLflow
-- 0.8608 ROC-AUC, 0.8101 accuracy, 0.8059 F1 — best pipeline trains in ~14s
-`Python` `Optuna` `MLflow` `Scikit-learn`
+$ cat highlights.log
+[latency]   60.000s → 0.110s/query   (600x)        — Musify
+[roc_auc]   0.8608                                 — AutoML
+[accuracy]  0.8101   [f1]  0.8059                  — AutoML
+[scale]     75,000 users · 145,000 artists · 3.66M interactions
+```
 
-### ClinSight — Clinical Decision-Support System
-A patient risk-scoring system predicting 30-day readmission risk and hospital length of stay, built to support real-time clinical decision-making.
-- Reproducible classification/regression pipelines deployed via FastAPI + React
-- Surfaces high-risk patients and stay-length anomalies for clinical staff
-`Python` `FastAPI` `React` `Healthcare ML`
+<br>
 
-### InvestmentPortfolio — Risk-Aware Portfolio Recommendation Engine
-A recommendation platform generating portfolio allocations (Conservative / Balanced / Aggressive) from an investor's risk profile, horizon, liquidity, and existing holdings.
-- Modular rule-based scoring and allocation logic
-- Full-stack implementation with FastAPI, Pydantic, MySQL, React + TypeScript
-`FastAPI` `MySQL` `React` `TypeScript`
+## Build Log
 
----
+Four systems, four different ML problems — ranking, tabular classification/regression,
+recommendation, and rule-based scoring — each taken from raw data to a running API.
 
-## Technical Skills
+<br>
 
-| | |
-|---|---|
-| **Languages** | Python, SQL, C |
-| **Machine Learning** | Regression, Classification, Ensemble Methods, Feature Engineering, Hyperparameter Optimization, Recommendation Systems |
-| **Deep Learning / GenAI** | Neural Networks, NLP, RAG, LLM Applications, AI Agents, Prompt Engineering |
-| **Backend & MLOps** | FastAPI, REST APIs, MLflow, Optuna, Model Deployment & Versioning |
-| **Data & Cloud** | MySQL, AWS, Oracle Cloud Infrastructure |
-| **Tooling** | Git, React, TypeScript, Streamlit, Linux/Bash |
+<table>
+<tr>
+<td width="50%" valign="top">
 
-## Certifications
-Deep Learning Specialization (Andrew Ng) · Generative AI Professional — Building LLM Applications with Prompt Engineering (NVIDIA) · Oracle Cloud Infrastructure 2025 Certified
+**🎵 Musify**
+*Hybrid Recommendation Engine*
 
----
+SVD collaborative filtering + content-based filtering + popularity ranking, fused and re-ranked with MMR for diversity.
 
-<p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=tanishqqq-hub&show_icons=true&theme=default&hide_border=true&count_private=true" height="160" />
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=tanishqqq-hub&layout=compact&hide_border=true" height="160" />
-</p>
+- 60s → 0.11s/query inference (**~600x**)
+- 10% Hit@10 across 3.66M interactions
+- Cold-start fallback for new users
+
+`Python` `Scikit-learn` `SVD`
+
+</td>
+<td width="50%" valign="top">
+
+**⚙️ AutoML**
+*Zero-Touch ML Platform*
+
+Upload a dataset → get a trained, tuned, tracked model. Handles validation, preprocessing, training, and selection across 5 algorithms.
+
+- 0.86 ROC-AUC, best run in **~14s**
+- Optuna search (20 trials/model)
+- Leakage-safe pipelines, MLflow tracked
+
+`Optuna` `MLflow` `Scikit-learn`
+
+</td>
+</tr>
+<tr>
+<td width="50%" valign="top">
+
+**🏥 ClinSight**
+*Clinical Risk Scoring*
+
+Predicts 30-day readmission risk and hospital length of stay to support real-time clinical decisions.
+
+- Classification + regression pipelines
+- Deployed via FastAPI + React
+- Flags stay-length anomalies for staff
+
+`FastAPI` `React` `Healthcare ML`
+
+</td>
+<td width="50%" valign="top">
+
+**💹 InvestmentPortfolio**
+*Risk-Aware Allocation Engine*
+
+Generates Conservative / Balanced / Aggressive portfolios from an investor's risk profile, horizon, and holdings.
+
+- Modular rule-based scoring logic
+- Full-stack: FastAPI, MySQL, React/TS
+- Interactive allocation visualization
+
+`FastAPI` `MySQL` `TypeScript`
+
+</td>
+</tr>
+</table>
+
+<br>
+
+## Stack
+
+<div align="center">
+
+| Layer | Tools |
+|:--|:--|
+| **Modeling** | Scikit-learn · Regression · Classification · Ensembles · Recommendation Systems |
+| **Deep Learning / GenAI** | Neural Networks · NLP · RAG · LLM Agents · Prompt Engineering |
+| **MLOps** | MLflow · Optuna · Model Versioning & Deployment |
+| **Backend / Frontend** | FastAPI · REST APIs · React · TypeScript |
+| **Data / Cloud** | MySQL · AWS · Oracle Cloud Infrastructure |
+| **Languages** | Python · SQL · C |
+
+</div>
+
+<br>
+
+## Credentials
+
+Deep Learning Specialization — *Andrew Ng*  ·  Generative AI Professional (LLM Applications with Prompt Engineering) — *NVIDIA*  ·  Oracle Cloud Infrastructure 2025 Certified
+
+<br>
+
+<div align="center">
+
+<img src="https://github-readme-stats.vercel.app/api?username=tanishqqq-hub&show_icons=true&theme=default&hide_border=true&count_private=true" height="160" />
+<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=tanishqqq-hub&layout=compact&hide_border=true" height="160" />
+
+<sub>Open to AI/ML developer roles and collaborations</sub>
+
+</div>
