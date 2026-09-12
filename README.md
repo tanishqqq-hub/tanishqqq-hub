@@ -1,164 +1,53 @@
-# Hi, I'm Tanishq Deshpande 👋
+<h1 align="center">Hi, I'm Tanishq Deshpande 👋</h1>
+<h3 align="center">AI/ML Developer building end-to-end ML systems — from data to deployment</h3>
 
-### AI/ML Developer | Machine Learning • Deep Learning • NLP • GenAI
+<p align="center">
+I design and ship full ML pipelines — preprocessing, model training, experiment tracking, and FastAPI/React deployment — across healthcare, fintech, and recommendation systems.
+</p>
 
-I build **end-to-end AI/ML systems** — from data preprocessing and model development to API deployment, experiment tracking, and production-ready applications.
-
-My work spans **machine learning, recommendation systems, NLP, LLM applications, and automated ML**, with a focus on building systems that are measurable, reproducible, and useful.
-
-<p align="left">
-  <a href="https://www.linkedin.com/in/tanishq-deshpande23">
-    <img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=flat&logo=linkedin&logoColor=white" />
-  </a>
-  <a href="mailto:tanishqdeshpande123@gmail.com">
-    <img src="https://img.shields.io/badge/Email-EA4335?style=flat&logo=gmail&logoColor=white" />
-  </a>
+<p align="center">
+  <a href="https://linkedin.com/in/tanishq-deshpande23"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=flat&logo=linkedin&logoColor=white" /></a>
+  <a href="mailto:tanishqdeshpande123@gmail.com"><img src="https://img.shields.io/badge/Email-D14836?style=flat&logo=gmail&logoColor=white" /></a>
+  <a href="https://github.com/tanishqqq-hub"><img src="https://img.shields.io/badge/GitHub-181717?style=flat&logo=github&logoColor=white" /></a>
 </p>
 
 ---
 
-## What I Build
+### 🔭 Currently building
+- **Musify** — a hybrid music recommender (collaborative + content-based filtering) serving 75K users across 145K artists, with recommendation latency down from 60s to 0.11s/query
+- Exploring RAG pipelines and LLM agent workflows for practical GenAI applications
 
-* 🤖 **Machine Learning Systems** — classification, regression, ensemble learning, feature engineering & model evaluation
-* 🎯 **Recommendation Systems** — collaborative filtering, content-based recommendation, ranking & re-ranking
-* 🧠 **Deep Learning & NLP** — neural networks, NLP pipelines and intelligent applications
-* ✨ **GenAI Applications** — LLM applications, prompt engineering, RAG & AI agents
-* ⚙️ **MLOps & Deployment** — experiment tracking, model versioning, optimization & production APIs
-* 🌐 **AI Applications** — FastAPI backends with React-based interfaces
+### 🧠 What I work with
+`Python` · `SQL` · `Scikit-learn` · `FastAPI` · `MLflow` · `Optuna` · `React` · `TypeScript` · `MySQL` · `AWS` · `OCI`
 
----
-
-## Selected Work
-
-### 🎵 Musify — Hybrid Music Recommendation System
-
-A large-scale personalized music recommendation system built around user listening behavior and artist characteristics.
-
-**75K users · 145K artists · 3.66M interactions**
-
-* Combined **SVD collaborative filtering**, content-based filtering and popularity ranking
-* Implemented weighted score fusion, cold-start fallback and **MMR-based re-ranking**
-* Reduced recommendation latency from **60s → 0.11s/query (~600× faster)**
-* Achieved **10% Hit@10**
-* Optimized inference using **100 latent factors**
-
-**Stack:** `Python` `Scikit-learn` `Pandas` `NumPy` `Recommendation Systems`
+**Focus areas:** Machine Learning & Deep Learning · NLP · Recommendation Systems · RAG & LLM Applications · MLOps & Model Deployment
 
 ---
 
-### ⚙️ AutoML — End-to-End Automated Machine Learning Platform
+### 📌 Selected work
 
-An automated ML platform that takes a dataset through validation, preprocessing, training, model selection and prediction.
+**[ClinSight](https://github.com/tanishqqq-hub) — Clinical Decision-Support ML System**
+Predicts 30-day patient readmission risk and hospital length of stay; deployed with FastAPI + React for real-time risk scoring that helps clinical staff flag high-risk patients.
 
-* Supports **5 ML algorithms**
-* Built leakage-safe pipelines using `ColumnTransformer`
-* Automated hyperparameter optimization with **Optuna**
-* Integrated **MLflow** for experiment tracking and model versioning
-* Achieved **0.8608 ROC-AUC · 0.8101 Accuracy · 0.8059 F1**
-* Best pipeline completed in approximately **14 seconds**
+**[AutoML](https://github.com/tanishqqq-hub) — End-to-End Automated ML Platform**
+Upload-to-prediction pipeline covering validation, preprocessing, training, and model selection across 5 algorithms. Optuna-tuned, MLflow-tracked — **0.86 ROC-AUC** with the best pipeline completing in ~14s.
 
-**Stack:** `Python` `Scikit-learn` `Optuna` `MLflow` `FastAPI`
+**[InvestmentPortfolio](https://github.com/tanishqqq-hub) — Risk-Aware Portfolio Recommender**
+Generates personalized investment allocations (Conservative / Balanced / Aggressive) from an investor's risk profile, horizon, and holdings, with a FastAPI + MySQL + React/TypeScript stack.
 
----
-
-### 🏥 ClinSight — ML-Powered Patient Risk Scoring
-
-An end-to-end clinical decision-support ML application for predicting **30-day patient readmission risk** and **hospital Length of Stay (LOS)**.
-
-* Built classification and regression pipelines
-* Generated patient-level risk scores and predicted hospital stay
-* Deployed ML models through **FastAPI**
-* Built an interactive **React** frontend
-* Designed the system to help identify high-risk patients and significant LOS deviations
-
-**Stack:** `Python` `Scikit-learn` `FastAPI` `React` `Machine Learning`
+**[Musify](https://github.com/tanishqqq-hub) — Hybrid Music Recommendation System**
+SVD collaborative filtering + content-based filtering + popularity ranking, with MMR re-ranking and cold-start handling. **~600x faster inference**, 10% Hit@10.
 
 ---
 
-### 📈 InvestmentPortfolio — Personalized Investment Recommendation
-
-A risk-aware portfolio recommendation platform that generates investment allocations based on investor characteristics and existing holdings.
-
-* Designed recommendations across **Conservative, Balanced and Aggressive** profiles
-* Built modular scoring and allocation logic
-* Implemented investor and portfolio data management
-* Developed interactive allocation visualization
-
-**Stack:** `Python` `FastAPI` `Pydantic` `MySQL` `React` `TypeScript`
+### 🎓 Certifications
+Deep Learning Specialization (Andrew Ng) · Generative AI Professional — Building LLM Applications with Prompt Engineering (NVIDIA) · Oracle Cloud Infrastructure 2025 Certified
 
 ---
 
-## 🛠️ Tech Stack
+<p align="center">
+  <img src="https://github-readme-stats.vercel.app/api?username=tanishqqq-hub&show_icons=true&theme=default&hide_border=true&count_private=true" height="165" />
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=tanishqqq-hub&layout=compact&hide_border=true" height="165" />
+</p>
 
-### Languages
-
-`Python` `SQL` `C`
-
-### Machine Learning
-
-`Scikit-learn` `Pandas` `NumPy` `Regression` `Classification` `Ensemble Learning` `Feature Engineering` `Model Evaluation` `Hyperparameter Optimization`
-
-### AI / Deep Learning
-
-`Deep Learning` `Neural Networks` `NLP` `Generative AI` `LLM Applications` `RAG` `AI Agents` `Prompt Engineering`
-
-### Backend & MLOps
-
-`FastAPI` `REST APIs` `MLflow` `Optuna` `Model Deployment` `Experiment Tracking` `Model Versioning`
-
-### Data & Cloud
-
-`MySQL` `AWS` `Oracle Cloud Infrastructure`
-
-### Development
-
-`React` `TypeScript` `Git` `GitHub` `Streamlit` `Postman` `VS Code` `Linux/Bash`
-
----
-
-## 📊 Engineering Highlights
-
-| Area                     | Result                      |
-| ------------------------ | --------------------------- |
-| Recommendation inference | **~600× latency reduction** |
-| AutoML ROC-AUC           | **0.8608**                  |
-| AutoML F1-score          | **0.8059**                  |
-| AutoML pipeline time     | **~14 seconds**             |
-| Musify users             | **75K**                     |
-| Musify artists           | **145K**                    |
-| Musify interactions      | **3.66M**                   |
-
----
-
-## 📚 Certifications
-
-* **Deep Learning Specialization** — Andrew Ng
-* **Complete A.I. Machine Learning and Data Science Bootcamp**
-* **Generative AI Professional — Building LLM Applications With Prompt Engineering** — NVIDIA
-* **Oracle Cloud Infrastructure 2025 Certified**
-
----
-
-## 🎯 Current Focus
-
-Building deeper expertise in:
-
-**Production ML → LLM Applications → RAG → AI Agents → MLOps**
-
-I am particularly interested in turning ML/AI research and experimentation into **reliable, measurable software systems**.
-
----
-
-## 🤝 Let's Connect
-
-I'm interested in **AI/ML engineering, machine learning systems, GenAI applications, and applied AI**.
-
-📍 Mumbai, India
-
-**LinkedIn:** [linkedin.com/in/tanishq-deshpande23](https://www.linkedin.com/in/tanishq-deshpande23)
-
-**Email:** [tanishqdeshpande123@gmail.com](mailto:tanishqdeshpande123@gmail.com)
-
----
-
-> **Build systems. Measure results. Ship intelligently.**
+<p align="center"><i>📍 Mumbai, India — open to AI/ML developer roles and collaborations</i></p>
